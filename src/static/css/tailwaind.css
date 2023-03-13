@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.global-table .mail {
+  font-family: "Manrope", serif !important;
+  @apply text-[12px] leading-5 font-medium text-[#84818A] !important;
+}
+
+.global-table .name {
+  font-family: "Manrope", serif !important;
+  @apply text-sm leading-5 font-semibold text-[#2E2C34] !important;
+}
+.global-table .contact {
+  background: rgba(0, 165, 255, 0.1);
+  border-radius: 4px;
+  @apply text-[#00A5FF] text-[12px] font-semibold px-2 py-1 inline-block;
+}
+.pagination {
+  mix-blend-mode: normal;
+  box-shadow: 0px -1px 10px rgb(0 0 0 / 10%);
+  @apply p-2 bg-white flex items-center mt-5;
+}
+.form-name {
+  @apply text-[#4E2FA9] text-base font-semibold;
+}
+.rolePOPUP .MuiDialog-paper {
+  @apply w-[720px] p-4 rounded-xl;
+}
+.addRole .title {
+  @apply text-[#2E2C34] font-semibold text-base;
+}
+.addRole .para {
+  @apply text-[#84818A] text-sm font-medium;
+}
+.addRole .pera-text {
+  @apply text-[#84818A] text-sm font-medium pl-8;
+}
+.addRole .checkbox-addrole {
+  @apply pt-6;
+}
+.addRole .checkbox-addrole span {
+  @apply pt-0 pb-0;
+}
+.addRole .divider {
+  background: #ebeaed;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  @apply h-[1px] w-full my-4;
+}
+.breadCrumb {
+  @apply flex items-center gap-6 py-10;
+}
+.breadCrumb span {
+  @apply text-2xl leading-5 text-[#2E2C34] font-semibold;
+}
+.planPopUP .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  @apply max-w-[1243px] p-8 rounded-[20px];
+}
+.planPopUP .bazaarButtons {
+  @apply flex items-center gap-4;
+}
+.planPopUP .closeBtn {
+  width: 20px;
+  height: 20px;
+  background: url(../icons/close-icon.svg) no-repeat center center;
+}
+
+.pagination {
+  display: none;
+}
+.planPopUP .css-1t1j96h-MuiPaper-root-MuiDialog-paper .pagination {
+  display: flex;
+}
+.w-\[50px\] {
+  width: 50px !important;
+}
+.groupCeta tr td:not(:first-child) ,
+.groupCeta tr th:not(:first-child){
+  @apply pl-6;
+}
+.groupCeta tr {
+  padding-top: 1rem;
+  display: block;
+}
+.groupCeta .ActionLogo {
+  border: 1px solid #ebeaed;
+  border-radius: 4px;
+  @apply flex gap-3 items-center p-5;
+}
+.groupCeta .ActionLogo img{
+  @apply max-w-[16px]
+}
+.groupCeta .ActionLogo .dividor{
+  border-left: 2px solid #ebeaed;
+  width: 4px;
+  height: 22px;
+}
+.rightContainer .addButton{
+  border: 2px dashed #5542F6;
+border-radius: 4px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 11px 24px;
+gap: 8px;
+cursor: pointer;
+color: #5542F6;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+margin-top: 32px;
+}
+.rightContainer .addButton img{
+  max-width: 10px;
+}
